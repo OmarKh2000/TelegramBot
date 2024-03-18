@@ -1,0 +1,5 @@
+import os
+
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+MEDIASTACK_ACCESS_KEY = os.environ.get('MEDIASTACK_ACCESS_KEY')
